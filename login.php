@@ -33,6 +33,8 @@ session_start();
 
 			$_SESSION['username'] = $email_pass['username'];
 
+			$_SESSION['email'] = $email_pass['email'];
+
 			$pass_decode = password_verify($password, $db_pass);
 
 			if($pass_decode){

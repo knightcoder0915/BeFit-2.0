@@ -50,7 +50,7 @@ if(isset($_POST['submit'])){
 			if($iquery){
 				
 				$subject = "Email Activation";
-				$body = "Hi, $username. Click her to activate your account on BeFit:Your Fitness Guide
+				$body = "Hi, $username. Click here to activate your account on BeFit:Your Fitness Guide
 				http://localhost/SignUp/activate.php?token=$token "; 
 				$headers = "From: team.aiml.tdk@gmail.com";
 
